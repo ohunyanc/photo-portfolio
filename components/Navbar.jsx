@@ -34,10 +34,7 @@ const Navbar = () => {
           </h1>
         </Link>
 
-        <ul
-          style={{ color: `${textColor}` }}
-          className=" invisible  flex sm:visible"
-        >
+        <ul style={{ color: `${textColor}` }} className=" hidden sm:flex">
           <li className="p-4">
             <Link href="/">Home</Link>
           </li>
